@@ -5369,7 +5369,7 @@ gatsby-plugin-emotion@^7.8.0:
     "@babel/runtime" "^7.15.4"
     "@emotion/babel-preset-css-prop" "^11.2.0"
 
-gatsby-plugin-image@^2.8.0:
+gatsby-plugin-image@^2.8.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.8.1.tgz#b494fb7b237c846b68bd07877e7db456962b2483"
   integrity sha512-ADp3Wsgb9eiwJknjDPuM8pBdkZpyOPwm/OWm7RFdKbrtfziteIFelSvwd374cqVo9TMqbs8yqXm1trgUOWJ5qw==
@@ -5425,7 +5425,7 @@ gatsby-plugin-react-helmet@^5.8.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-sharp@^4.8.0:
+gatsby-plugin-sharp@^4.8.1:
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.8.1.tgz#726a3d0fe4da4c214934b2e891d5c7e8f79e85a2"
   integrity sha512-qevtUQT9TJpv9OGzGr7XKPjRyhJyDn/G5yFGCHr8kf+7EZBeD4TYn6oy2/34Olv7ckn+DcH4pjdK8sxhi45lJw==
