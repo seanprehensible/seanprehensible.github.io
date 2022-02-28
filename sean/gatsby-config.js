@@ -3,7 +3,7 @@ module.exports = {
     title: `이해하면서 성장하는 Sean의 개발 노트`,
     description: `이해 가능한 인풋, 흥미의 지속이 성장을 이끈다고 생각합니다.`,
     author: `@seanprehensible`,
-    siteUrl: `https://seanprehensible.dev`,
+    siteUrl: `https://seanprehensible.github.io`,
   },
   plugins: [
     {
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://seanprehensible.dev',
+        siteUrl: 'https://seanprehensible.github.io',
         stripQueryString: true,
       },
     },
