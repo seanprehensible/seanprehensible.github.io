@@ -14,20 +14,34 @@ const Wrapper = styled.div`
   justify-content: flex-end;
   align-items: flex-start;
   width: 768px;
-  height: 400px;
+  height: 350px;
   margin: 0 auto;
   transform: translateY(50%);
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 250px;
+    padding: 0 20px;
+  }
 `
 
 const SubTitle = styled.div`
   margin-top: 5px;
   font-size: 20px;
   font-weight: 400;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 `
 
 const Title = styled.div`
   font-size: 40px;
   font-weight: 700;
+
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
 `
 
 const Introduction: FunctionComponent = function () {

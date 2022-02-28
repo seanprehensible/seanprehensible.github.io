@@ -25,6 +25,12 @@ const CategoryListWrapper = styled.div`
   flex-wrap: wrap;
   width: 768px;
   margin: 248px auto 0;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 195px;
+  }
 `
 
 const CategoryItem = styled(({ active, ...props }: GatsbyLinkProps) => (
@@ -48,6 +54,10 @@ const CategoryItem = styled(({ active, ...props }: GatsbyLinkProps) => (
 
   &:hover {
     color: ${({ active }) => (active ? '#fff' : '#212529')};
+  }
+
+  @media (max-width: 768px) {
+    font-size: 15px;
   }
 `
 
