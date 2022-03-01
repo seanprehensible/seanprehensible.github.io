@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `이해하면서 성장하는 Sean의 개발 노트`,
-    description: `이해 가능한 인풋, 흥미의 지속이 성장을 이끈다고 생각합니다.`,
-    author: `@seanprehensible`,
+    title: `이해하면서 성장하는 Sean의 개발노트`,
+    description: `흥미와 이해 가능한 인풋이 지속적인 성장을 이끈다고 생각합니다.`,
+    author: `seanprehensible<seanprehensible@gmail.com>`,
     siteUrl: `https://seanprehensible.github.io`,
   },
   plugins: [
